@@ -1,0 +1,63 @@
+body{
+	overflow-x: hidden;
+}
+
+#left > * {
+	float: right;
+	margin-top: 5%;
+	vertical-align:top
+}
+
+#right > * {
+	float: left;
+	margin-top: 5%;
+}
+
+#fedi-img {
+	border: 1px solid black;
+	padding: 1%;
+	width: 40%;
+	box-shadow: 10px 10px 10px;
+}
+
+ul {
+	list-style: none;
+
+}
+
+#links{
+	text-align: right;
+}
+
+#actuellement{
+	text-align: center;
+}
+
+#actuellement>div>hr{
+	margin-top: 4%	;
+	border-top: 3px solid rgba(0,0,0,.1) !important;
+}
+
+li>a {
+	color: #CCCCCC;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+a > h2{
+	float: right;
+}
+
+#currently>.row>div>center>a>img:hover{
+	transform: scale(1.14);
+	transition: ease-in 0.15s;
+}
