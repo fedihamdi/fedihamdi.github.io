@@ -1,7 +1,7 @@
 body{
 	width: 90%;
   height: 90%;
-  background-color: rgb(226, 226, 226);
+  background-color: rgb(224, 212, 212);
   background-image: radial-gradient(circle at top right,
    rgba(121, 68, 154, 0.13), transparent),
 	radial-gradient(circle at 20% 80%,
@@ -112,5 +112,5 @@ div>h2{
 	
 }
 #currently>.row>div>center{
-	color: #e9e7e3;
+	color: #0059ff;
 }
