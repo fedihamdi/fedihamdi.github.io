@@ -43,11 +43,14 @@ span>h2{
 h1{
 	color:rgb(228, 15, 15); text-decoration: none;
 }
+img{
+	border-radius: 50%;
+}
 #fedi-img {
-	border: 1px solid black;
+	
 	padding: 10;
 	width: 30%;
-	box-shadow: 10px 10px 10px;
+	
 	
 }
 #fedi-img>:hover{
