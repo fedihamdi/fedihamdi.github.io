@@ -30,14 +30,19 @@ canvas{
 #left > * {
 	float: right;
 	margin-top: 5%;
-	vertical-align:top
+	vertical-align:top;
+	font-size: 60px;
 }
-
+span>h2{
+	font-size: 70px;
+}
 #right > * {
 	float: left;
 	margin-top: 5%;
 }
-
+h1{
+	color:rgb(228, 15, 15); text-decoration: none;
+}
 #fedi-img {
 	border: 1px solid black;
 	padding: 10;
@@ -71,10 +76,15 @@ ul {
 	border-top: 3px solid rgba(0,0,0,.1) !important;
 }
 
-li>a {
-	color: #CCCCCC;
+li {
+	color: #e26868;
 	font-weight: bold;
 	font-size: 25px;
+}
+li>a {
+	color: #55a1e0;
+	font-weight: bold;
+	font-size: 35px;
 }
 
 a{
@@ -99,6 +109,7 @@ a > h2{
 }
 div>h2{
 	color: #57a9ec;
+	
 }
 #currently>.row>div>center{
 	color: #e9e7e3;
